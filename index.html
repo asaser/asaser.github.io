@@ -1,11 +1,427 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Portfolio</title>
+    <!-- czcionki -->
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- moje style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/languages.css">
+    <link rel="stylesheet" href="css/projects.css">
+
 </head>
+
 <body>
-    
+
+    <!-- Main navigation -->
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Basic Projects</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+                arial-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-white" id="navbarMenu">
+                <ul class="navbar-nav mr-auto smooth-scroll">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownProjects" data-toggle="dropdown"
+                            href="#projects">Projects</a>
+                        <div class="dropdown-menu bg-primary text-white" aria-labelledby="navbarDropdownProjects">
+                            <a class="dropdown-item text-white" href="#project">Project One</a>
+                            <a class="dropdown-item text-white" href="#project">Project Two</a>
+                            <a class="dropdown-item text-white" href="#project">Project Three</a>
+                            <a class="dropdown-item text-white" href="#project">Project Four</a>
+                            <a class="dropdown-item text-white" href="#project">Project Five</a>
+                            <a class="dropdown-item text-white" href="#project">Project Six</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#technologies">Technologies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- socialIcons -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link li-ic mr-3" role="button">
+                            <i class="fab fa-lg fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link git-ic mr-3" role="button">
+                            <i class="fab fa-lg fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Photo. Main Page -->
+    <header id="mainHeader">
+        <div class="view bg-primary text-center d-flex justify-content-center align-items-center">
+            <div class="mask rgba-purple-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-white font-weight-bold">
+                            <hr class="bg-danger my-3">
+                            <h1 class="display-3">Basic Projects</h1>
+                            <h2 class="subtext-header mt-2 mb-2">Website with all my small projects</h2>
+                            <hr class="bg-danger my-3">
+                            <button class="btn btn-outline-light bg-danger" type="button" data-toggle="collapse"
+                                data-target="#btnInfo" aria-expanded="false" aria-controls="btnInfo">
+                                <i class="fas fa-home"></i>Read More
+                            </button>
+
+                            <div id="btnInfo" class="collapse">
+                                <div class="card card-body bg-primary">
+                                    Below are description my various small projects with programming languages
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1 sekcja -->
+        <!-- umieszczenie języków programowania, może dodać zdjęcie i jakie projekty za pomocą nim robiłem -->
+        <!-- za pomocą card można też to zrobić -->
+
+        <section id="technologies" class="text-center bg-secondary py-5">
+            <div class="container">
+                <h3 class="font-weight-bold mb-5">Programming Languages</h3>
+                <p class="text-muted text-center my-2">Programming languages used to creat projects. Below picture with
+                    selected
+                    languages is list with projects in which this language was used</p>
+                <div class="row text-center">
+                    <div class="col-lg-2">
+                        <div class="card">
+                            <img class="languages_icon card-img-top" src="/icons/css3.png" alt="CSS">
+                            <div class="card-body">
+                                <div class="card-header">Projects:</div>
+                                <ul class="languages-item list-group list-group-flush">
+                                    <li class="list-group-item">Project1</li>
+                                    <li class="list-group-item">Project2</li>
+                                    <li class="list-group-item">Project3</li>
+                                    <li class="list-group-item">Project4</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="card">
+                            <img class="languages_icon card-img-top" src="/icons/css3.png" alt="CSS">
+                            <div class="card-body">
+                                <div class="card-header">Projects:</div>
+                                <ul class="languages-item list-group list-group-flush">
+                                    <li class="list-group-item">Project1</li>
+                                    <li class="list-group-item">Project2</li>
+                                    <li class="list-group-item">Project3</li>
+                                    <li class="list-group-item">Project4</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="card">
+                            <img class="languages_icon card-img-top" src="/icons/jquery.png" alt="CSS">
+                            <div class="card-body">
+                                <div class="card-header">Projects:</div>
+                                <ul class="languages-item list-group list-group-flush">
+                                    <li class="list-group-item">Project1</li>
+                                    <li class="list-group-item">Project2</li>
+                                    <li class="list-group-item">Project3</li>
+                                    <li class="list-group-item">Project4</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="card">
+                            <img class="languages_icon card-img-top" src="/icons/js.png" alt="CSS">
+                            <div class="card-body">
+                                <div class="card-header">Projects:</div>
+                                <ul class="languages-item list-group list-group-flush">
+                                    <li class="list-group-item">Project1</li>
+                                    <li class="list-group-item">Project2</li>
+                                    <li class="list-group-item">Project3</li>
+                                    <li class="list-group-item">Project4</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="card">
+                            <img class="languages_icon card-img-top" src="/icons/jquery.png" alt="CSS">
+                            <div class="card-body">
+                                <div class="card-header">Projects:</div>
+                                <ul class="languages-item list-group list-group-flush">
+                                    <li class="list-group-item">Project1</li>
+                                    <li class="list-group-item">Project2</li>
+                                    <li class="list-group-item">Project3</li>
+                                    <li class="list-group-item">Project4</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="card">
+                            <img class="languages_icon card-img-top" src="/icons/html5.png" alt="CSS">
+                            <div class="card-body">
+                                <div class="card-header">Projects:</div>
+                                <ul class="languages-item list-group list-group-flush">
+                                    <li class="list-group-item">Project1</li>
+                                    <li class="list-group-item">Project2</li>
+                                    <li class="list-group-item">Project3</li>
+                                    <li class="list-group-item">Project4</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="card">
+                            <img class="languages_icon card-img-top" src="/icons/css3.png" alt="CSS">
+                            <div class="card-body">
+                                <div class="card-header">Projects:</div>
+                                <ul class="languages-item list-group list-group-flush">
+                                    <li class="list-group-item">Project1</li>
+                                    <li class="list-group-item">Project2</li>
+                                    <li class="list-group-item">Project3</li>
+                                    <li class="list-group-item">Project4</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="card">
+                            <img class="languages_icon card-img-top" src="/icons/html5.png" alt="CSS">
+                            <div class="card-body">
+                                <div class="card-header">Projects:</div>
+                                <ul class="languages-item list-group list-group-flush">
+                                    <li class="list-group-item">Project1</li>
+                                    <li class="list-group-item">Project2</li>
+                                    <li class="list-group-item">Project3</li>
+                                    <li class="list-group-item">Project4</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2 sekcja -->
+        <!-- To będzie można użyć do pokazywania moich mini projektów z opisami mini -->
+        <!-- https://getbootstrap.com/docs/4.0/components/card/ -->
+
+        <section id="project" class="text-center bg-info py-5">
+            <div class="container z-depth-5">
+                <h3 class="font-weight-bold mb-5">Projects</h3>
+                <p class="text-muted text-center my-4">In this section are described all my small projects with small
+                    description below each.
+                    Also is added in what programming languages this project was made and the possibility of switching
+                    to this project
+                </p>
+                <div class="row text-center">
+                    <div class="col-lg-4 col-md-5 mb-4">
+                        <div class="card-deck">
+                            <div class="card h-100">
+                                <div class="card-header">Project 1</div>
+                                <img class="project_image card-img-top" src="/image/Project1.jpg" alt="First project">
+
+                                <div class="card-body">
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur Laudantium, itaque?</p>
+                                    <a class="btn btn-primary" href="#"> VIEW Project</a>
+                                    <a class="btn btn-primary" href="#"> VIEW on GitHub</a>
+                                    <ul class="project_items list-group list-group-flush text-muted mt-2">
+                                        <li class="list-group-item">HTML, CSS</li>
+                                        <li class="list-group-item">JS, Angular</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card-deck">
+                            <div class="card h-100">
+                                <div class="card-header">Project 2</div>
+                                <img class="project_image card-img-top h-100" src="/image/Project4.jpg"
+                                    alt="First project">
+
+                                <div class="card-body">
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur Laudantium, itaque?</p>
+                                    <a class="btn btn-primary" href="#"> VIEW Project</a>
+                                    <a class="btn btn-primary" href="#"> VIEW on GitHub</a>
+                                    <ul class="project_items list-group list-group-flush text-muted mt-2">
+                                        <li class="list-group-item">HTML, CSS</li>
+                                        <li class="list-group-item">JS, Angular</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card-deck">
+                            <div class="card h-100">
+                                <div class="card-header">Project 3</div>
+                                <img class="project_image card-img-top" src="/image/Project3.jpg" alt="First project">
+
+                                <div class="card-body">
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur Laudantium, itaque?</p>
+                                    <a class="btn btn-primary" href="#"> VIEW Project</a>
+                                    <a class="btn btn-primary" href="#"> VIEW on GitHub</a>
+                                    <ul class="project_items list-group list-group-flush text-muted mt-2">
+                                        <li class="list-group-item">HTML, CSS</li>
+                                        <li class="list-group-item">JS, Angular</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card-deck">
+                            <div class="card h-100">
+                                <div class="card-header">Project 4</div>
+                                <img class="project_image card-img-top" src="/image/Project4.jpg" alt="First project">
+
+                                <div class="card-body">
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur Laudantium, itaque?</p>
+                                    <a class="btn btn-primary" href="#"> VIEW Project</a>
+                                    <a class="btn btn-primary" href="#"> VIEW on GitHub</a>
+                                    <ul class="project_items list-group list-group-flush text-muted mt-2">
+                                        <li class="list-group-item">HTML, CSS</li>
+                                        <li class="list-group-item">JS, Angular</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card-deck">
+                            <div class="card h-100">
+                                <div class="card-header">Project 5</div>
+                                <img class="project_image card-img-top" src="/image/Project5.jpg" alt="First project">
+
+                                <div class="card-body">
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur Laudantium, itaque?</p>
+                                    <a class="btn btn-primary" href="#"> VIEW Project</a>
+                                    <a class="btn btn-primary" href="#"> VIEW on GitHub</a>
+                                    <ul class="project_items list-group list-group-flush text-muted mt-2">
+                                        <li class="list-group-item">HTML, CSS</li>
+                                        <li class="list-group-item">JS, Angular</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card-deck">
+                            <div class="card h-100">
+                                <div class="card-header">Project 6</div>
+                                <img class="project_image card-img-top" src="/image/Project4.jpg" alt="First project">
+
+                                <div class="card-body">
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur Laudantium, itaque?</p>
+                                    <a class="btn btn-primary" href="#"> VIEW Project</a>
+                                    <a class="btn btn-primary" href="#"> VIEW on GitHub</a>
+                                    <ul class="project_items list-group list-group-flush text-muted mt-2">
+                                        <li class="list-group-item">HTML, CSS</li>
+                                        <li class="list-group-item">JS, Angular</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <section id="contact" class="py-5 bg-danger text-center">
+            <div class="container">
+                <h3 class="font-weight-bold mb-5">Contact</h3>
+                <p class="text-muted text-center my-4">if you have questions, write</p>
+
+                <form class="mx-md-5" action="">
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <input class="form-control" type="text" id="name" placeholder="Name and Surname">
+                        </div>
+
+                        <div class="col-md-4">
+                            <input class="form-control" type="text" id="email" placeholder="E-mail">
+                        </div>
+
+                        <div class="col-md-4">
+                            <input class="form-control" type="text" id="subject" placeholder="Subject">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea class="form-control rounded" name="Message" id="message" rows="5"
+                                    placeholder="Message"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-elegant" type="submit">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </footer>
+
 </body>
+
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+
+<!-- Popper -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+
+<!-- Bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+
+<!-- mój plik -->
+<script src="js/main.js"></script>
+
 </html>
