@@ -16,11 +16,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- moje style -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/languages.css">
-    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="stylesheet" href="./css/main-content.css">
+    <link rel="stylesheet" href="./css/languages.css">
 
 </head>
 
@@ -38,16 +38,7 @@
             <div class="collapse navbar-collapse text-white" id="navbarMenu">
                 <ul class="navbar-nav mr-auto smooth-scroll">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownProjects" data-toggle="dropdown"
-                            href="#projects">Projects</a>
-                        <div class="dropdown-menu bg-primary text-white" aria-labelledby="navbarDropdownProjects">
-                            <a class="dropdown-item text-white" href="#project">Project One</a>
-                            <a class="dropdown-item text-white" href="#project">Project Two</a>
-                            <a class="dropdown-item text-white" href="#project">Project Three</a>
-                            <a class="dropdown-item text-white" href="#project">Project Four</a>
-                            <a class="dropdown-item text-white" href="#project">Project Five</a>
-                            <a class="dropdown-item text-white" href="#project">Project Six</a>
-                        </div>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#technologies">Technologies</a>
@@ -60,7 +51,8 @@
                 <!-- socialIcons -->
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="https://www.linkedin.com/in/bartlomiejkorytkowski/" target="_blank" class="nav-link li-ic mr-3" role="button">
+                        <a href="https://www.linkedin.com/in/bartlomiejkorytkowski/" target="_blank"
+                            class="nav-link li-ic mr-3" role="button">
                             <i class="fab fa-lg fa-linkedin-in"></i>
                         </a>
                     </li>
@@ -76,23 +68,30 @@
 
     <!-- Header Photo. Main Page -->
     <header id="mainHeader">
-        <div class="view bg-primary text-center d-flex justify-content-center align-items-center">
-            <div class="mask rgba-purple-light">
+        <div class="view bg-primary text-center d-flex justify-content-center">
+            <div class="rgba-purple-light">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-white font-weight-bold">
                             <hr class="bg-danger my-3">
-                            <h1 class="display-3">Basic Projects</h1>
-                            <h2 class="subtext-header mt-2 mb-2">Website with all my small projects</h2>
+                            <h1 class="display-3">Projects</h1>
+                            <h2 class="subtext-header mt-2 mb-2">Some of my projects</h2>
                             <hr class="bg-danger my-3">
-                            <button class="btn btn-outline-light bg-danger" type="button" data-toggle="collapse"
-                                data-target="#btnInfo" aria-expanded="false" aria-controls="btnInfo">
-                                <i class="fas fa-home"></i>Read More
+                            <button onclick="AboutMe()" class="btn btn-outline-light bg-danger" type="button"
+                                data-toggle="collapse" data-target="#btnInfo" aria-expanded="false"
+                                aria-controls="btnInfo">
+                                <i class="fas fa-home">About Me</i>
                             </button>
 
                             <div id="btnInfo" class="collapse">
                                 <div class="card card-body bg-primary">
-                                    Below are description my various small projects with programming languages
+I am a hard-working and strongly determined person in pursuit of a designated goal. I graduated from IT studies with a specialization in software engineering.
+I graduated from the Front-End Developer programming course and mastered the following programming languages.
+I worked for a 1 year as an analyst and database developer at Comarch,
+also I was a member of volunteering work on renewing the mobile application
+„Pielgrzym” for needs ŚDM oraz Niezależnego Zrzeszenia Studentów where I was a web
+developer and computer graphics artist.
+I learn new issues quickly and willingly.
                                 </div>
                             </div>
                         </div>
@@ -422,6 +421,6 @@
 </script>
 
 <!-- mój plik -->
-<script src="js/main.js"></script>
+<script src="js/index.js"></script>
 
 </html>

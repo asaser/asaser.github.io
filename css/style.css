@@ -1,27 +1,12 @@
-html,
-body,
-header,
-.view {
-    height: 100%;
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (max-width: 740px) {
-    html,
-    body,
-    header,
-    .view {
-      height: 100vh;
-    }
-  }
 
-#mainHeader .view {
-    height: 100vh;
-}
 
 .languages-item{
     font-size: 12px;
-}
+} 
 
 .project_items {
     font-size: 12px;
