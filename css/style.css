@@ -24,15 +24,15 @@
 }
 
 
-#projects {
+#portfolio {
 	text-align: center;
 }
 
-#projects .portfolio-items {
+#portfolio .portfolio-items {
 	font-size: 0;
 }
 
-#projects .single-item {
+#portfolio .single-item {
 	height: 300px;
 	background-size: cover;
 	background-position: center;
@@ -40,7 +40,7 @@
 	width: 100%;
 }
 
-#projects .single-item .item-mask {
+#portfolio .single-item .item-mask {
 	height: 100%;
 	background-color: rgba(33, 59, 80, 0.7);
 	padding: 5px;
@@ -48,17 +48,17 @@
 	transition: all 0.3s;
 }
 
-#projects .single-item .item-mask:hover {
+#portfolio .single-item .item-mask:hover {
 	opacity: 1;
 }
 
-#projects .single-item .item-mask-inner {
+#portfolio .single-item .item-mask-inner {
 	border: 1px solid #fff;
 	height: 100%;
 	position: relative;
 }
 
-#projects .single-item .item-content {
+#portfolio .single-item .item-content {
 	font-size: 16px;
 	color: #fff;
 	position: absolute;
@@ -67,13 +67,13 @@
 	transform: translateY(-50%);
 }
 
-#projects .single-item .item-content .portfolio-link {
+#portfolio .single-item .item-content .portfolio-link {
 	color: #27c54f;
 	font-size: 2em;
 	transition: all 0.3s;
 }
 
-#projects .single-item .item-content .portfolio-link:hover {
+#portfolio .single-item .item-content .portfolio-link:hover {
 	color: #fff;
 }
 
