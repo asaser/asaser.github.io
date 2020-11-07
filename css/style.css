@@ -4,11 +4,15 @@
 
 #mainHeader .view {
     position: relative;
-    height: 100vh;
+    height: 70vh;
 }
 
 #mainHeader .view .main_header_text {
     margin-top: 20px;
+}
+
+.about_me_text {
+    font-size: 12px;
 }
 
 .languages-item {
@@ -17,4 +21,68 @@
 
 .project_items {
     font-size: 12px;
+}
+
+
+#projects {
+	text-align: center;
+}
+
+#projects .portfolio-items {
+	font-size: 0;
+}
+
+#projects .single-item {
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+	width: 100%;
+}
+
+#projects .single-item .item-mask {
+	height: 100%;
+	background-color: rgba(33, 59, 80, 0.7);
+	padding: 5px;
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+#projects .single-item .item-mask:hover {
+	opacity: 1;
+}
+
+#projects .single-item .item-mask-inner {
+	border: 1px solid #fff;
+	height: 100%;
+	position: relative;
+}
+
+#projects .single-item .item-content {
+	font-size: 16px;
+	color: #fff;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#projects .single-item .item-content .portfolio-link {
+	color: #27c54f;
+	font-size: 2em;
+	transition: all 0.3s;
+}
+
+#projects .single-item .item-content .portfolio-link:hover {
+	color: #fff;
+}
+
+#portfolio-item-1 {
+	background-image: url(../img/portfolio1.jpg);
+}
+#portfolio-item-2 {
+	background-image: url(../img/portfolio2.jpg);
+}
+#portfolio-item-3 {
+	background-image: url(../img/portfolio3.jpg);
 }
