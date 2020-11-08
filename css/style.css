@@ -86,3 +86,7 @@
 #portfolio-item-3 {
 	background-image: url(../img/portfolio3.jpg);
 }
+
+.change_color_text {
+	color: blue;
+}
