@@ -69,7 +69,7 @@
 
 #portfolio .single-item .item-content .portfolio-link {
 	color: #27c54f;
-	font-size: 2em;
+	font-size: 1.5em;
 	transition: all 0.3s;
 }
 
@@ -78,15 +78,51 @@
 }
 
 #portfolio-item-1 {
-	background-image: url(../img/portfolio1.jpg);
+	background-image: url(../img/Project-1.png);
 }
 #portfolio-item-2 {
-	background-image: url(../img/portfolio2.jpg);
+	background-image: url(../img/Project-2.png);
 }
 #portfolio-item-3 {
-	background-image: url(../img/portfolio3.jpg);
+	background-image: url(../img/Project-3.png);
+}
+#portfolio-item-4 {
+	background-image: url(../img/Project-4.png);
+}
+#portfolio-item-5 {
+	background-image: url(../img/Project-5.png);
+}
+#portfolio-item-6 {
+	background-image: url(../img/Project-6.png);
+}
+#portfolio-item-7 {
+	background-image: url(../img/Project-7.png);
+}
+#portfolio-item-7 {
+	background-image: url(../img/Project-7.png);
+}
+
+
+#webPages {
+	text-align: center;
+}
+
+#webPages .webPages-item {
+	font-size: 0;
+}
+
+#webPages-item-1 {
+	background-image: url(../img/WebPage-1.png);
+}
+
+#webPages-item-2 {
+	background-image: url(../img/WebPage-2.png);
 }
 
 .change_color_text {
 	color: blue;
 }
+
+
+
+
