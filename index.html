@@ -68,23 +68,24 @@
 
     <!-- Header Photo. Main Page -->
     <header id="mainHeader">
-        <div class="view bg-primary text-center d-flex justify-content-center align-item-center">
+        <div class="view text-center d-flex justify-content-center align-items-center">
             <div class="rgba-purple-light">
-                <div class="container main_header_text">
+                <div class="container">
                     <div class="row">
-                        <div class="col-md-12 text-white font-weight-bold">
+                        <div class="col-md-12 text-white">
                             <hr class="bg-danger my-3">
-                            <h1 class="display-3">Projects</h1>
-                            <h2 class="subtext-header mt-2 mb-2">Some of my projects</h2>
+                            <h1 class="main_header_text_one">Projects</h1>
+                            <h2 class="main_header_text_two subtext-header mt-2 mb-2">Some of my projects</h2>
                             <hr class="bg-danger my-3">
-                            <button class="btn btn-outline-light bg-danger" type="button" data-toggle="collapse"
+                            <button class="btn btn-outline-light bg-danger main_header_button" type="button" data-toggle="collapse"
                                 data-target="#btnInfo" aria-expanded="false" aria-controls="btnInfo">
                                 <i class="fas fa-home">About Me</i>
+
                             </button>
 
-                            <div id="btnInfo" class="collapse">
-                                <div class="card card-body bg-primary">
-                                    <p class="about_me_text">I am a hard-working and strongly determined person in
+                            <div id="btnInfo" class="collapse mt-3">
+                                <div class="card card-body text-light bg-dark">
+                                    <p class="about_me_text">My name is Bartłomiej Korytkowski. I am a hard-working and strongly determined person in
                                         pursuit of a designated goal. I graduated from IT studies with a specialization
                                         in software engineering. I graduated from the Front-End Developer programming
                                         course and mastered the following programming languages.
@@ -107,56 +108,55 @@
         <!-- umieszczenie języków programowania, może dodać zdjęcie i jakie projekty za pomocą nim robiłem -->
         <!-- za pomocą card można też to zrobić -->
 
-        <section id="technologies" class="text-center bg-secondary py-5">
-            <h3 class="font-weight-bold mb-3">Skills</h3>
-            <p class="text-center my-2 mb-4">Programming languages, libraries, data exchange formats used to create
+        <section id="technologies" class="text-center py-5">
+            <h3 class="maintext_all display-4 mb-3">Skills</h3>
+            <p class="subtext_all text-center mb-5 px-4">Programming languages, libraries, data exchange formats used to create
                 projects. Below picture with
-                selected languages is list with projects in which this language was used</p>
+                selected languages is list with projects in which this language was used.</p>
             <div class="container">
                 <div class="row text-center">
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <figure class="skill-icon">
                             <img src="./icons/html5.png" alt="HTML5">
-                            <figcaption>HTML<span class="change_color_text">5</span></figcaption>
+                            <figcaption class="font-weight-bold">HTML<span class="change_color_text">5</span></figcaption>
                         </figure>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <figure class="skill-icon">
                             <img src="./icons/css3.png" alt="CSS3">
-                            <figcaption>CSS<span class="change_color_text">3</span></figcaption>
+                            <figcaption class="font-weight-bold">CSS<span class="change_color_text">3</span></figcaption>
                         </figure>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <figure class="skill-icon">
                             <img src="./icons/js.png" alt="JavaScript">
-                            <figcaption>Java<span class="change_color_text">Script</span></figcaption>
+                            <figcaption class="font-weight-bold">Java<span class="change_color_text">Script</span></figcaption>
                         </figure>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <figure class="skill-icon">
                             <img src="./icons/react.png" alt="React">
-                            <figcaption>React</figcaption>
+                            <figcaption class="font-weight-bold">React<span class="change_color_text">.js</span></figcaption>
                         </figure>
                     </div>
                 </div>
-
                 <div class="row text-center">
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <figure class="skill-icon">
                             <img src="./icons/sql.png" alt="SQL">
-                            <figcaption>SQL</figcaption>
+                            <figcaption class="font-weight-bold">SQL and<span class="change_color_text"> (PL/SQL)</span></figcaption>
                         </figure>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <figure class="skill-icon">
                             <img src="./icons/jquery.png" alt="jQuery">
-                            <figcaption><span class="change_color_text">j</span>Query</figcaption>
+                            <figcaption class="font-weight-bold"><span class="change_color_text">j</span>Query</figcaption>
                         </figure>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <figure class="skill-icon">
                             <img src="./icons/bootstrap.png" alt="Bootstrap">
-                            <figcaption>Bootstrap</figcaption>
+                            <figcaption class="font-weight-bold">Boot<span class="change_color_text">strap</span></figcaption>
                         </figure>
                     </div>
                 </div>
@@ -167,12 +167,12 @@
         <!-- To będzie można użyć do pokazywania moich mini projektów z opisami mini -->
         <!-- https://getbootstrap.com/docs/4.0/components/card/ -->
 
-        <section id="portfolio" class="text-center bg-info py-5">
-            <h3 class="font-weight-bold mb-5">Projects</h3>
-            <p class="text-center my-4">
+        <section id="portfolio" class="text-center py-5">
+            <h3 class="maintext_all display-4 mb-3">Projects</h3>
+            <p class="subtext_all text-center mb-4 px-4">
                 In this section are described all my small projects with small description below each.
                 Also is added in what programming languages this project was made and the possibility of switching
-                to this project
+                to this project.
             </p>
             <div class="container z-depth-5">
                 <div class="row text-center portfolio-items">
@@ -186,9 +186,9 @@
                                     <div class="item-mask">
                                         <div class="item-mask-inner">
                                             <div class="item-content">
-                                                <p>Lorem ipsum</p>
                                                 <h5>Technologies</h5>
                                                 <p>HTML, CSS, JS</p>
+                                                <p>Lorem ipsum</p>
                                                 <p>Click below to OPEN PROJECT</p>
                                                 <a href="https://asaser.github.io/CurrentExchangeReact/#" target="_blank" class="portfolio-link"><i class="fa fa-link"
                                                         aria-hidden="true"></i></a>
@@ -343,9 +343,9 @@
                 </div>
         </section>
 
-        <section id="portfolio" class="text-center bg-info py-5">
-            <h3 class="font-weight-bold mb-5">Web Pages</h3>
-            <p class="text-center my-4">
+        <section id="portfolio" class="text-center py-5">
+            <h3 class="maintext_all display-4 mb-3">Web Pages</h3>
+            <p class="subtext_all text-center mb-4 px-4">
                 In this section are described all my commercial web pages with small description below each.
                 I also added in what program I made them.
             </p>
@@ -403,16 +403,18 @@
     </main>
 
     <footer>
-        <section id="contact" class="py-5 bg-danger text-center">
+        <section id="contact" class="py-5 text-center">
             <div class="container">
-                <h3 class="font-weight-bold mb-5">Contact</h3>
-                <p class="text-muted text-center my-4">if you have questions, write</p>
+                <h3 class="maintext_all display-4 mb-3">Contact</h3>
+                <p class="subtext_all text-center mb-4 px-4">If you have questions, please contact me  e-mail or phone number.</p>
+                <p class="subtext_all text-center">E-mail: <i class="change_color_text font-weight-bold">korytkowskibartlomiej@gmail.com</i></p>
+                <p class="subtext_all text-center">Phone Number: <i class="change_color_text font-weight-bold">+48 604 678 347</i></p>
 
-                <form class="mx-md-5" action="MAILTO:korytkowskibartlomiej@gmail.com" method="POST"
+                <form action="MAILTO:korytkowskibartlomiej@gmail.com" method="POST"
                     enctype="text/plain">
                     <div class="row">
                         <div class="col-md-4 mb-4">
-                            <input class="form-control" type="text" id="name" placeholder="Name and Surname">
+                            <input class="form-control" type="text" id="name" placeholder="Name">
                         </div>
 
                         <div class="col-md-4 mb-4">
@@ -431,7 +433,7 @@
                                     placeholder="Message"></textarea>
                             </div>
                             <div class="text-center">
-                                <button class="btn btn-elegant" type="submit">Send</button>
+                                <button class="btn btn-outline-light bg-danger font-weight-bold" type="submit"><i class="fas fa-envelope mr-2"></i>Click to send your form<i class="fas fa-envelope ml-2"></i></button>
                             </div>
                         </div>
                     </div>
