@@ -11,13 +11,17 @@
 }
 
 #mainNav .nav-item .nav-link:hover {
-	color: #27c54f;
+	color: #0091ff;
 }
 
 #mainHeader .view {
     position: relative;
 	height: 100vh;
-	background-color: #bdbdbd;
+	background-color: #081f6ad5;
+}
+
+#mainHeader .view .color_line {
+	background-color: #ffffff7c;
 }
 
 #mainHeader .view .main_header_text_one {
@@ -32,7 +36,11 @@
 	font-size: 30px;
 }
 
-.about_me_text {
+#mainHeader .view .change_font_main_button {
+	font-family: "Century Gothic";
+}
+
+#mainHeader .view .about_me_text {
     font-size: 15px;
 }
 
@@ -147,12 +155,42 @@
 
 .subtext_all {
 	font-size: 25px;
-	color: rgba(255, 255, 255, 0.83);
+	color: rgb(0, 0, 0);
 }
 
 .maintext_all {
-	color: rgba(255, 255, 255, 0.83);
+	color: rgb(0, 0, 0);
 }
 
+.social-link {
+	display: inline-block;
+	color: #fff;
+	border: 1px solid #fff;
+	height: 80px;
+	width: 80px;
+	font-size: 2em;
+	margin-right: 10px;
+	text-align: center;
+	line-height: 80px;
+}
+
+.social-link:hover {
+	color: #27c54f;
+	border: 1px solid #27c54f;
+
+}
+
+.change_link_color {
+	color: #27c54f;
+	text-decoration: none;
+}
+
+.change_link_color:hover {
+	color: #00ff11;
+}
+
+.card-header {
+	background-color: #0579d1bf;
+}
 
 
