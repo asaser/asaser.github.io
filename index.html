@@ -83,12 +83,21 @@
                             <h1 class="main_header_text_one">Projects</h1>
                             <h2 class="main_header_text_two subtext-header mt-2 mb-2">Some of my projects</h2>
                             <hr class="color_line my-3">
-                            <button class="btn btn-outline-light bg-dark main_header_button" type="button"
+
+                            <button class="btn btn-outline-light bg-dark main_header_button" type="button">
+                            <a class="text-white" href="https://drive.google.com/file/d/1MawTFJO9gXPbMRqaXaF3E0uM1Vng9Ym1/view?usp=sharing" alt="MyCVPL" target="_blank">My CV in Polish</a>
+                            </button>
+
+                            <button class="btn btn-outline-light bg-dark main_header_button mx-5" type="button"
                                 data-toggle="collapse" data-target="#btnInfo" aria-expanded="false"
                                 aria-controls="btnInfo">
-                                <i class="fas fa-home text-white"> <span class="change_font_main_button"> About Me</span></i>
-
+                                <i class="fas fa-home text-white"> <span class="change_font_main_button"> About
+                                        Me</span></i>
                             </button>
+
+                            <button class="btn btn-outline-light bg-dark main_header_button" type="button">
+                                <a class="text-white" href="https://drive.google.com/file/d/1k340CkeAv4-gNlvOTlh93nGFg-BAQErT/view?usp=sharing" alt="MyCVENG" target="_blank">My CV in English</a>
+                                </button>
 
                             <div id="btnInfo" class="collapse mt-3">
                                 <div class="card card-body text-light bg-dark">
@@ -117,64 +126,85 @@
         <!-- za pomocą card można też to zrobić -->
 
         <section id="technologies" class="text-center py-5">
-            <h3 class="maintext_all display-4 mb-3">Skills</h3>
+            <h3 class="maintext_all display-4 my-5">Skills</h3>
             <p class="subtext_all text-center mb-5 px-4">Programming languages, libraries, data exchange formats used to
                 create
                 projects. Below picture with
                 selected languages is list with projects in which this language was used.</p>
-            <div class="container">
-                <div class="row text-center">
+            <div class="container z-depth-5">
+                <div class="row text-center technologies_first_row">
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <figure class="skill-icon">
-                            <img src="./icons/html5.png" alt="HTML5">
-                            <figcaption class="font-weight-bold">HTML<span class="change_color_text">5</span>
+                            <img class="change_technologies_img" src="./icons/html5.png" alt="HTML5">
+                            <figcaption class="change_technologies_text font-weight-bold">HTML<span
+                                    class="change_color_text">5</span>
                             </figcaption>
                         </figure>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <figure class="skill-icon">
-                            <img src="./icons/css3.png" alt="CSS3">
-                            <figcaption class="font-weight-bold">CSS<span class="change_color_text">3</span>
+                            <img class="change_technologies_img" src="./icons/css3.png" alt="CSS3">
+                            <figcaption class="change_technologies_text font-weight-bold">CSS<span
+                                    class="change_color_text">3</span>
                             </figcaption>
                         </figure>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <figure class="skill-icon">
-                            <img src="./icons/js.png" alt="JavaScript">
-                            <figcaption class="font-weight-bold">Java<span class="change_color_text">Script</span>
+                            <img class="change_technologies_img" src="./icons/js.png" alt="JavaScript">
+                            <figcaption class="change_technologies_text font-weight-bold">Java<span
+                                    class="change_color_text">Script</span>
                             </figcaption>
                         </figure>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <figure class="skill-icon">
-                            <img src="./icons/react.png" alt="React">
-                            <figcaption class="font-weight-bold">React<span class="change_color_text">.js</span>
+                            <img class="change_technologies_img" src="./icons/react.png" alt="React">
+                            <figcaption class="change_technologies_text font-weight-bold">React<span
+                                    class="change_color_text">.js</span>
                             </figcaption>
                         </figure>
                     </div>
                 </div>
+            </div>
+
+            <div class="container z-depth-5 my-5">
                 <div class="row text-center">
-                    <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <figure class="skill-icon">
-                            <img src="./icons/sql.png" alt="SQL">
-                            <figcaption class="font-weight-bold">SQL and<span class="change_color_text"> (PL/SQL)</span>
+                            <img class="change_technologies_img" src="./icons/sql.png" alt="SQL">
+                            <figcaption class="change_technologies_text font-weight-bold">SQL and<span
+                                    class="change_color_text"> (PL/SQL)</span>
                             </figcaption>
                         </figure>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <figure class="skill-icon">
-                            <img src="./icons/jquery.png" alt="jQuery">
-                            <figcaption class="font-weight-bold"><span class="change_color_text">j</span>Query
+                            <img class="change_technologies_img" src="./icons/jquery.png" alt="jQuery">
+                            <figcaption class="change_technologies_text font-weight-bold"><span
+                                    class="change_color_text">j</span>Query
                             </figcaption>
                         </figure>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <figure class="skill-icon">
-                            <img src="./icons/bootstrap.png" alt="Bootstrap">
-                            <figcaption class="font-weight-bold">Boot<span class="change_color_text">strap</span>
+                            <img class="change_technologies_img" src="./icons/bootstrap.png" alt="Bootstrap">
+                            <figcaption class="change_technologies_text font-weight-bold">Boot<span
+                                    class="change_color_text">strap</span>
                             </figcaption>
                         </figure>
                     </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <figure class="skill-icon">
+                            <img class="change_technologies_img" src="./icons/wordpress.png" alt="WordPress">
+                            <figcaption class="change_technologies_text font-weight-bold">Word<span
+                                    class="change_color_text">Press</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+
+
                 </div>
             </div>
         </section>
@@ -198,21 +228,28 @@
                                 <div class="card-header">
                                     <h5 class="font-weight-bold">Currency Exchange</h5>
                                 </div>
-                                <div id="portfolio-item-1" class="single-item">
-                                    <div class="item-mask">
-                                        <div class="item-mask-inner">
-                                            <div class="item-content">
-                                                <h5>Technologies</h5>
-                                                <p>HTML, CSS, JS</p>
-                                                <p>Lorem ipsum</p>
-                                                <p>Click below to OPEN PROJECT</p>
-                                                <a href="https://asaser.github.io/CurrentExchangeReact/#"
-                                                    target="_blank" class="portfolio-link"><i class="fa fa-link"
-                                                        aria-hidden="true"></i></a>
+
+                                <a href="https://asaser.github.io/CurrentExchangeReact/#" target="_blank"
+                                    class="portfolio-link">
+
+                                    <div id="portfolio-item-1" class="single-item">
+                                        <div class="item-mask">
+                                            <div class="item-mask-inner">
+                                                <div class="item-content">
+                                                    <h6 class="font-weight-bold">Technologies</h6>
+                                                    <p>React, JSon, jQuery, API, HTML5, CSS3</p>
+                                                    <h6 class="font-weight-bold">Short Description</h6>
+                                                    <p class="mx-5">Ability to check exchange rates in different countries.
+                                                        The app uses the currency exchange API so you can check the exchange rate in real time.
+                                                    </p>
+
+                                                        <i class="change_color_text fa fa-lg fa-link" aria-hidden="true"></i>
+
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -223,20 +260,22 @@
                                 <div class="card-header">
                                     <h5 class="font-weight-bold">Weather App</h5>
                                 </div>
-                                <div id="portfolio-item-2" class="single-item">
-                                    <div class="item-mask">
-                                        <div class="item-mask-inner">
-                                            <div class="item-content">
-                                                <p>Lorem ipsum</p>
-                                                <h5>Technologies</h5>
-                                                <p>HTML, CSS, JS</p>
-                                                <a href="https://asaser.github.io/WeatherAPI/" target="_blank"
-                                                    class="portfolio-link"><i class="fa fa-link"
-                                                        aria-hidden="true"></i></a>
+                                <a href="https://asaser.github.io/WeatherAPI/" target="_blank" class="portfolio-link">
+                                    <div id="portfolio-item-2" class="single-item">
+                                        <div class="item-mask">
+                                            <div class="item-mask-inner">
+                                                <div class="item-content">
+                                                    <h6 class="font-weight-bold">Technologies</h6>
+                                                    <p>JavaScript, API, jQuery, HTML5, CSS3</p>
+                                                    <h6 class="font-weight-bold">Short Description</h6>
+                                                    <p class="mx-5">Checking the weather in a selected city in the world in real time thanks to the API.</p>
+
+                                                    <i class="change_color_text fa fa-lg fa-link" aria-hidden="true"></i>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -248,20 +287,23 @@
                                 <div class="card-header">
                                     <h5 class="font-weight-bold">Memory Game</h5>
                                 </div>
-                                <div id="portfolio-item-3" class="single-item">
-                                    <div class="item-mask">
-                                        <div class="item-mask-inner">
-                                            <div class="item-content">
-                                                <p>Lorem ipsum</p>
-                                                <h5>Technologies</h5>
-                                                <p>HTML, CSS, JS</p>
-                                                <a href="https://asaser.github.io/MemoryApp/" target="_blank"
-                                                    class="portfolio-link"><i class="fa fa-link"
-                                                        aria-hidden="true"></i></a>
+                                <a href="https://asaser.github.io/MemoryApp/" target="_blank" class="portfolio-link">
+                                    <div id="portfolio-item-3" class="single-item">
+                                        <div class="item-mask">
+                                            <div class="item-mask-inner">
+                                                <div class="item-content">
+                                                    <h6 class="font-weight-bold">Technologies</h6>
+                                                    <p>JavaScript, HTML5, CSS3</p>
+                                                    <h6 class="font-weight-bold">Short Description</h6>
+                                                    <p class="mx-5">A game with 3 levels of difficulty in matching pictures</p>
+
+                                                    <i class="change_color_text fa fa-lg fa-link" aria-hidden="true"></i>
+
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -272,20 +314,23 @@
                                 <div class="card-header">
                                     <h5 class="font-weight-bold">Schedule for IT in UEK</h5>
                                 </div>
-                                <div id="portfolio-item-4" class="single-item">
-                                    <div class="item-mask">
-                                        <div class="item-mask-inner">
-                                            <div class="item-content">
-                                                <p>Lorem ipsum</p>
-                                                <h5>Technologies</h5>
-                                                <p>HTML, CSS, JS</p>
-                                                <a href="https://asaser.github.io/PlanZajec/" target="_blank"
-                                                    class="portfolio-link"><i class="fa fa-link"
-                                                        aria-hidden="true"></i></a>
+                                <a href="https://asaser.github.io/PlanZajec/" target="_blank" class="portfolio-link">
+                                    <div id="portfolio-item-4" class="single-item">
+                                        <div class="item-mask">
+                                            <div class="item-mask-inner">
+                                                <div class="item-content">
+                                                    <h6 class="font-weight-bold">Technologies</h6>
+                                                    <p>JavaScript, JSon, FireBase, PHP, HTML5, CSS3</p>
+                                                    <h6 class="font-weight-bold">Short Description</h6>
+                                                    <p class="mx-5">Checking the timetable for computer science from EUK</p>
+
+                                                    <i class="change_color_text fa fa-lg fa-link" aria-hidden="true"></i>
+
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -297,20 +342,24 @@
                                 <div class="card-header">
                                     <h5 class="font-weight-bold">Interactive Keyboard </h5>
                                 </div>
-                                <div id="portfolio-item-5" class="single-item">
-                                    <div class="item-mask">
-                                        <div class="item-mask-inner">
-                                            <div class="item-content">
-                                                <p>Lorem ipsum</p>
-                                                <h5>Technologies</h5>
-                                                <p>HTML, CSS, JS</p>
-                                                <a href="https://asaser.github.io/CurrentExchangeReact/#"
-                                                    target="_blank" class="portfolio-link"><i class="fa fa-link"
-                                                        aria-hidden="true"></i></a>
+                                <a href="https://asaser.github.io/CurrentExchangeReact/#" target="_blank"
+                                    class="portfolio-link">
+                                    <div id="portfolio-item-5" class="single-item">
+                                        <div class="item-mask">
+                                            <div class="item-mask-inner">
+                                                <div class="item-content">
+                                                    <h6 class="font-weight-bold">Technologies</h6>
+                                                    <p>JavaScript, HTML5, CSS3</p>
+                                                    <h6 class="font-weight-bold">Short Description</h6>
+                                                    <p class="mx-5">An online keyboard that can be played by pressing the keys</p>
+
+                                                    <i class="change_color_text fa fa-lg fa-link" aria-hidden="true"></i>
+
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -321,20 +370,24 @@
                                 <div class="card-header">
                                     <h5 class="font-weight-bold">Science Calculator</h5>
                                 </div>
-                                <div id="portfolio-item-6" class="single-item">
-                                    <div class="item-mask">
-                                        <div class="item-mask-inner">
-                                            <div class="item-content">
-                                                <p>Lorem ipsum</p>
-                                                <h5>Technologies</h5>
-                                                <p>HTML, CSS, JS</p>
-                                                <a href="https://asaser.github.io/ScienceCalculator/" target="_blank"
-                                                    class="portfolio-link"><i class="fa fa-link"
-                                                        aria-hidden="true"></i></a>
+                                <a href="https://asaser.github.io/ScienceCalculator/" target="_blank"
+                                    class="portfolio-link">
+                                    <div id="portfolio-item-6" class="single-item">
+                                        <div class="item-mask">
+                                            <div class="item-mask-inner">
+                                                <div class="item-content">
+                                                    <h6 class="font-weight-bold">Technologies</h6>
+                                                    <p>JavaScript, HTML5, CSS3, SCSS</p>
+                                                    <h6 class="font-weight-bold">Short Description</h6>
+                                                    <p class="mx-5">Virtual science calculator</p>
+
+                                                    <i class="change_color_text fa fa-lg fa-link" aria-hidden="true"></i>
+ 
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                    </a>
                             </div>
                         </div>
                     </div>
@@ -345,20 +398,25 @@
                                 <div class="card-header">
                                     <h5 class="font-weight-bold">Real Time Clock</h5>
                                 </div>
-                                <div id="portfolio-item-7" class="single-item">
-                                    <div class="item-mask">
-                                        <div class="item-mask-inner">
-                                            <div class="item-content">
-                                                <p>Lorem ipsum</p>
-                                                <h5>Technologies</h5>
-                                                <p>HTML, CSS, JS</p>
-                                                <a href="https://asaser.github.io/RealTimeClock/" target="_blank"
-                                                    class="portfolio-link"><i class="fa fa-link"
-                                                        aria-hidden="true"></i></a>
+
+                                <a href="https://asaser.github.io/RealTimeClock/" target="_blank"
+                                    class="portfolio-link">
+                                    <div id="portfolio-item-7" class="single-item">
+                                        <div class="item-mask">
+                                            <div class="item-mask-inner">
+                                                <div class="item-content">
+                                                    <h6 class="font-weight-bold">Technologies</h6>
+                                                    <p>JavaScript, HTML5, CSS3</p>
+                                                    <h6 class="font-weight-bold">Short Description</h6>
+                                                    <p class="mx-5">Virtual dial clock showing the current time</p>
+
+                                                    <i class="change_color_text fa fa-lg fa-link" aria-hidden="true"></i>
+
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -380,20 +438,26 @@
                                 <div class="card-header">
                                     <h5 class="font-weight-bold">Hjem & Hage Page</h5>
                                 </div>
+
+                                <a href="http://www.hjemhage.no" target="_blank"
+                                                    class="portfolio-link">
+
                                 <div id="webPages-item-1" class="single-item">
                                     <div class="item-mask">
                                         <div class="item-mask-inner">
                                             <div class="item-content">
-                                                <p>Lorem ipsum</p>
-                                                <h5>Software</h5>
+                                                <h6 class="font-weight-bold">Technologies</h6>
                                                 <p>WordPress</p>
-                                                <a href="http://www.hjemhage.no" target="_blank"
-                                                    class="portfolio-link"><i class="fa fa-link"
-                                                        aria-hidden="true"></i></a>
+                                                <h6 class="font-weight-bold">Short Description</h6>
+                                                <p class="mx-5">Norwegian website created for a construction company</p>
+
+                                                <i class="change_color_text fa fa-lg fa-link" aria-hidden="true"></i>
+
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -404,20 +468,25 @@
                                 <div class="card-header">
                                     <h5 class="font-weight-bold">KrzysiekKozorys Photographic Page</h5>
                                 </div>
+                                <a href="https://krzysiekkozorys.pl" target="_blank"
+                                class="portfolio-link">
+
                                 <div id="webPages-item-2" class="single-item">
                                     <div class="item-mask">
                                         <div class="item-mask-inner">
                                             <div class="item-content">
-                                                <p>Lorem ipsum</p>
-                                                <h5>Software</h5>
+                                                <h6 class="font-weight-bold">Technologies</h6>
                                                 <p>WordPress</p>
-                                                <a href="https://krzysiekkozorys.pl" target="_blank"
-                                                    class="portfolio-link"><i class="fa fa-link"
-                                                        aria-hidden="true"></i></a>
+                                                <h6 class="font-weight-bold">Short Description</h6>
+                                                <p class="mx-5">Website created for the photographer</p>
+
+                                                <i class="change_color_text fa fa-lg fa-link" aria-hidden="true"></i>
+
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -430,36 +499,37 @@
     <footer>
         <section id="contact" class="py-5 text-center">
             <div class="container">
-                <h3 class="text-white display-4 mb-3">Bartłomiej<span class="change_color_text">Korytkowski</span>
-                </h3>
-
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-6 mb-4">
+                    <div class="col-lg-12 col-md-12 col-sm-6 mb-4 contact_text">
+                        <h3 class="text-white display-4">Bartłomiej
+                            <span class="change_color_text">Korytkowski</span>
+                        </h3>
                         <p class="subtext_all text-white text-center">Phone Number: <i
                                 class="change_color_text font-weight-bold">+48 604 678 347</i></p>
                         <p class="subtext_all text-white text-center">E-mail: <i class=" font-weight-bold"> <a
-                                    href="mailto:korytkowskibartlomiej@gmail.com"><span class="change_link_color">korytkowskibartlomiej@gmail.com</span>
-                                    </a></i>
+                                    href="mailto:korytkowskibartlomiej@gmail.com"><span
+                                        class="change_link_color">korytkowskibartlomiej@gmail.com</span>
+                                </a></i>
                         </p>
 
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-6 mb-4">
 
-                    <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/bartlomiejkorytkowski/" target="_blank"
-                            class="social-link mr-3" role="button">
-                            <i class="fab fa-lg fa-linkedin-in"></i>
-                        </a>
-                        <a href="https://github.com/asaser" target="_blank" class="social-link mr-3" role="button">
-                            <i class="fab fa-lg fa-github"></i>
-                        </a>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/bartlomiejkorytkowski/" target="_blank"
+                                class="social-link mr-3" role="button">
+                                <i class="fab fa-lg fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/asaser" target="_blank" class="social-link mr-3" role="button">
+                                <i class="fab fa-lg fa-github"></i>
+                            </a>
 
-                        <a href="https://www.facebook.com/profile.php?id=100002608851028" target="_blank"
-                            class="social-link mr-3" role="button">
-                            <i class="fab fa-lg fa-facebook-f"></i>
-                        </a>
+                            <a href="https://www.facebook.com/profile.php?id=100002608851028" target="_blank"
+                                class="social-link mr-3" role="button">
+                                <i class="fab fa-lg fa-facebook-f"></i>
+                            </a>
+                        </div>
                     </div>
-                </div>
                 </div>
 
             </div>
