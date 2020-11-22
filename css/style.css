@@ -95,8 +95,8 @@
 }
 
 #portfolio .single-item .item-content {
-	font-size: 16px;
-	color: #00ff11;
+	font-size: 18px;
+	color: #5185ff;
 	position: absolute;
 	width: 100%;
 	top: 50%;
@@ -138,7 +138,6 @@
 	background-image: url(../img/Project-7.png);
 }
 
-
 #webPages {
 	text-align: center;
 }
@@ -161,6 +160,10 @@
 
 .change_color_text {
 	color: rgba(21, 199, 74, 0.748);
+}
+
+.change_color_link {
+	color: #5185ff;
 }
 
 .subtext_all {
@@ -186,8 +189,6 @@
 
 .social-link:hover {
 	color: #27c54f;
-	border: 1px solid #27c54f;
-
 }
 
 .change_link_color {
